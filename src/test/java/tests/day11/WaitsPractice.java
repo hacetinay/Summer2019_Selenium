@@ -142,7 +142,7 @@ public class WaitsPractice {
             }
         });
     }
-
+//to close all windows
     @AfterMethod
     public void teardown() {
         driver.quit();
